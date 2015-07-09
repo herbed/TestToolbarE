@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		new CountDownTimer(2000, 2000) {
+		new CountDownTimer(3000, 3000) {
 			
 			@Override
 			public void onTick(long millisUntilFinished) {}
