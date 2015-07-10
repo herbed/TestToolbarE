@@ -3,7 +3,7 @@ package com.itper.testtoolbar.util;
 public class StringUtil {
 	
 	/**
-	 * ×Ö·û´®ÊÇ·ñÎª¿Õ,Îª¿Õ·µ»Øtrue,·ñÔò·µ»Øfalse
+	 * å­—ç¬¦ä¸²æ˜¯å¦ä¸ºç©º,ä¸ºç©ºè¿”å›true,å¦åˆ™è¿”å›false
 	 * @param str
 	 * @return
 	 */

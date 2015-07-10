@@ -97,7 +97,7 @@ public class LogUtil {
 	}
 	
 
-	//类，方法信息
+    //绫伙紝鏂规硶淇℃伅
 	protected static String buildMessage(String msg) {
 		StackTraceElement caller = new Throwable().fillInStackTrace().getStackTrace()[2];
 		return new StringBuilder().append(caller.getClassName()).append(".")

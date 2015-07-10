@@ -33,7 +33,7 @@ public class MainActivity extends BaseActivity {
 			
 			@Override
 			public void onFinish() {
-				updateToolbarSubTitle(TimeUtil.getStringToDate(System.currentTimeMillis()));
+				getToolbar().setSubtitle(TimeUtil.getStringToDate(System.currentTimeMillis()));
 			}
 		}.start();
 		
@@ -130,7 +130,7 @@ public class MainActivity extends BaseActivity {
 	}
 
 	@Override
-	protected String getToolbarSubTitle() {
+	protected String getToolbarSubtitle() {
 		// TODO Auto-generated method stub
 		return null;
 	}
