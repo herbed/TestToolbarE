@@ -19,7 +19,7 @@ public class TestAdapter extends BaseAdapter{
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return 20;
+		return 50;
 	}
 
 	@Override
