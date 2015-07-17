@@ -9,7 +9,6 @@
 
     <TextView
         android:id="@+id/itemTextView"
-        style="@style/Base.TextAppearance.AppCompat.Body2"
         android:layout_width="match_parent"
         android:layout_height="?attr/listPreferredItemHeight"
         android:gravity="center_vertical"
