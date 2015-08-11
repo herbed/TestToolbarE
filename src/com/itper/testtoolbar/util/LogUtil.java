@@ -100,9 +100,7 @@ public class LogUtil {
     //类，方法信息
 	protected static String buildMessage(String msg) {
 		StackTraceElement caller = new Throwable().fillInStackTrace().getStackTrace()[2];
-		return new StringBuilder().append(caller.getClassName()).append(".")
-				.append(caller.getMethodName()).append("(): ").append(msg)
-				.toString();
+		return new StringBuilder().append(caller.getClassName()).append(".").append(caller.getMethodName()).append("(): ").append(msg).toString();
 	}
 
 }
