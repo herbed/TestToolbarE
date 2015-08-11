@@ -13,7 +13,6 @@ import android.widget.ListView;
 
 public class MainActivity extends BaseActivity {
 	
-	private ListView listView;
 	private RecyclerView recyclerView;
 
 	@Override
